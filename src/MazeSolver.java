@@ -14,7 +14,6 @@ public class MazeSolver extends JFrame {
             {1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1},
             {1, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1},
             {1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1},
-            {1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 3, 1},  // goal is 3
             {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}
     };
 
@@ -36,9 +35,6 @@ public class MazeSolver extends JFrame {
                 Color color;
                 switch (maze[i][j]) {
                     case 1: color = Color.BLACK; break; // wall
-                    case 2: color = Color.RED;   break; // start
-                    case 3: color = Color.GREEN; break; // goal
-                    default: color = Color.WHITE;       // path
                 }
                 g.setColor(color);
                 g.fillRect(30 * j, 30 * i, 30, 30);
