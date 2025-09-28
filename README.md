@@ -22,9 +22,7 @@ The program highlights the **start (blue)** and **goal (dark blue)** nodes, expl
 
 ## ⚡ How to Run
 1. Clone the repository:
-   ```bash
- https://github.com/codewithprasad25/maze-solver.git
-
+(https://github.com/codewithprasad25/MazeSolver)
 
 👉 Just copy-paste this into the **README editor** section in your repo.  
 
