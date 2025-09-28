@@ -24,6 +24,3 @@ The program highlights the **start (blue)** and **goal (dark blue)** nodes, expl
 1. Clone the repository:
 (https://github.com/codewithprasad25/MazeSolver)
 
-👉 Just copy-paste this into the **README editor** section in your repo.  
-
-Do you also want me to make a **super short version (2–3 lines only)** in case your teacher only wants a tiny project description?
